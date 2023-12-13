@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#container{
+    margin: 0 auto;
+    max-width: 1700px;
+    height: 100%;
+   background-color: rgb(48, 47, 57);
+}
+
+#root {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie_card {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 370px;
+    text-align: center;
+    color: #fff;
+ 
+    
+}
+
+img {
+    overflow: hidden;
+    border-radius: 30px;
+    max-width: 100%;
+    height: 300px;
+    /* margin-bottom: 10px; */
+    overflow: hidden;
+}
+
+#search{
+    width: 500px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50px;
+    text-align: center;
+}
+.input{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#searchButton{
+    color: #fff;
+    background-color: rgb(93, 0, 255);
+    width: 90px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.gxavortext{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+#geners{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap: 10px;    
+}   
+
+.seleGen{
+    background-color: green;
+    color: #ff0000;
+}
+.getBtn{
+    background-color: rgb(106, 141, 141);
+    border-radius: 4px;
+    padding: 3px;
+    margin-top: 10px;
+} 
+
+.divsty{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.movie_card img{
+    width: 300px;
+    height: 300px;
+    transition: 1s;
+}
+.movie_card {
+    height: 100%;
+    transition: 1s;
+}
+body{
+    transition: 2s;
+}
+.movie_card:hover{
+    background-color: #2b1d1d;
+    border-radius: 10px;
+}
+#geners{
+    width: 100%;
+    transition: 1s;
+}
+.getBtn{
+    transition: 1s;
+}
+.getBtn:hover{
+    background-color: rgb(93, 0, 255);
+}
